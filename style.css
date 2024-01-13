@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    font-family: 'Nunito',sans-serif;
+}
+body{
+    max-width: 1440px;
+    width: 100%; 
+    background-color: white;
+    display: flex; justify-content: center;
+    padding-top: 6px;
+}
+.mainContainer {
+    width: 35%; display: flex; flex-direction: column; padding-top: 20px;
+    align-items: center; background-color: rgb(244, 244, 244);
+    border-radius: 5px; box-shadow: 2px 2px 10px;
+} 
+.title {
+    text-align: center;
+}
+.title h2 {
+    font-weight: 800; font-size: 26px;
+}
+.amountDisplay {
+    width: 80%; margin-top: 15px;
+}
+.balanceDisplay {
+    width: 100%; margin-bottom: 10px;
+}
+.incomeAndExpense {
+    width: 100%; background-color: white;
+    display: flex; align-items: center;
+    justify-content: space-between;
+    height: 60px; box-shadow: 2px 2px 2px rgb(194, 194, 194);
+    margin-bottom: 10px;
+}
+.income {
+    border-right: 2px solid grey;
+}
+.income,
+.expence {
+    width: 48%; text-align: center;
+} 
+.balanceDisplay h4{
+    font-weight: 800;
+}
+.transHistoryDiv {
+    width: 88%;
+    max-height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.transHistoryDiv h3 {
+    width: 90%;
+    border-bottom: 2px solid rgb(191, 191, 191);
+    margin-bottom: 10px; padding-bottom: 5px;
+}
+.transHistory {
+    width: 100%;
+    margin-bottom: 5px;
+    max-height: 111px; height: 100%;
+    overflow-y: auto;
+}
+.formTitle {
+    border-bottom: 1px solid rgb(191, 191, 191);
+    margin-bottom: 10px; padding-bottom: 5px;
+}
+.descriptAmount,
+.priceTitle {
+    font-weight: 700; 
+}
+.descriptAmount,
+.priceCondition { padding-bottom: 10px;}
+
+input[name="textInput"],
+input[name="priceInput"] {
+    border: none; background-color: white;
+    height: 30px; width: 98%; padding-left: 5px;
+    box-shadow: 1px 1px 2px rgb(194, 194, 194);
+    outline: none; margin-bottom: 10px;
+}
+#transInput {
+    width: 80%;
+}
+.submitBtnDiv {
+    width: 100%; display: flex; justify-content: center; 
+    align-items: center;
+}
+.submitBtn {
+    width: 100%; padding: 10px 0px; margin-bottom: 10px;
+    border: none; background-color: rgb(169, 74, 216);
+    color: white; font-weight: 700;
+}
+.submitBtn:hover {
+    cursor: pointer;
+}
+
+.historyBoxDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.historBox {
+    width: 87%; height: 33px;
+    background-color: white;
+    margin-bottom: 4px;
+    padding: 0px 5px;
+    border-right: 3px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.border {
+    border-right: 3px solid rgb(255, 40, 40);
+}
+.delBtn {
+    width: 20px;
+    height: 23px;
+    color: rgb(244, 244, 244);
+}
+.btnStyl {
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-bottom: 4px;
+}
